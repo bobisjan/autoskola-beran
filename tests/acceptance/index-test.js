@@ -13,6 +13,6 @@ module('Acceptance | index', function(hooks) {
     assert.dom('#header').exists();
     assert.dom('#footer').exists();
 
-    assert.dom('.price').hasText('Cena je v současnosti 11 000 Kč');
+    assert.dom('.price').hasText('Cena je v současnosti 13 000 Kč');
   });
 });
