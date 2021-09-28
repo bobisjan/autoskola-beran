@@ -9,10 +9,12 @@ const formatter = new Intl.NumberFormat('cs-CZ', {
 
 export default class ApplicationRoute extends Route {
   model() {
-    let price = formatter.format(13000);
+    let price = formatter.format(15000);
+    let since = '1. 1. 2021';
 
     return {
       price,
+      since,
     };
   }
 }
