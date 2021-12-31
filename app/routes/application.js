@@ -1,16 +1,20 @@
 import Route from '@ember/routing/route';
 
-const formatter = new Intl.NumberFormat('cs-CZ', {
+const locale = 'cs-CZ';
+
+const number = new Intl.NumberFormat(locale, {
   style: 'currency',
   currency: 'CZK',
   minimumFractionDigits: 0,
   maximumFractionDigits: 0,
 });
 
+const date = new Intl.DateTimeFormat(locale);
+
 export default class ApplicationRoute extends Route {
   model() {
-    let price = formatter.format(15000);
-    let since = '1. 1. 2021';
+    let price = number.format(18000);
+    let since = date.format(new Date(2022, 0, 1));
 
     return {
       price,
