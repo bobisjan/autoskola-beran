@@ -11,12 +11,12 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "NODE_ICU_DATA=$(pwd) ember build --environment=production",
+    "build": "ember build --environment=production",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
-    "start": "NODE_ICU_DATA=$(pwd) PREMBER=true ember serve",
+    "start": "PREMBER=true ember serve",
     "test": "ember test",
-    "deploy": "NODE_ICU_DATA=$(pwd) ember deploy production"
+    "deploy": "ember deploy production"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.3.0",
@@ -57,7 +57,12 @@
     "qunit-dom": "^1.0.0"
   },
   "engines": {
-    "node": "10.* || >= 12"
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "volta": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
   },
   "ember": {
     "edition": "octane"
