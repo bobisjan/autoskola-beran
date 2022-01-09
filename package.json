@@ -21,7 +21,8 @@
     "start": "PREMBER=true ember serve",
     "test": "npm-run-all lint test:*",
     "test:ember": "ember test",
-    "deploy": "ember deploy production"
+    "deploy": "ember deploy production",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -60,6 +61,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-qunit": "^7.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
     "prember": "^1.0.3",
