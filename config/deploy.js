@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(target) {
+module.exports = function (target) {
   let ENV = {
     build: {
       environment: target,
