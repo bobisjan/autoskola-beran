@@ -32,7 +32,7 @@
     "@embroider/webpack": "^0.50.0",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
-    "@percy/cli": "^1.0.0-beta.71",
+    "@percy/cli": "^1.0.0-beta.72",
     "@percy/ember": "^3.0.0",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
