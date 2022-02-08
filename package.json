@@ -34,7 +34,7 @@
     "@embroider/webpack": "^1.1.0",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
-    "@percy/cli": "^1.0.0-beta.74",
+    "@percy/cli": "^1.0.0-beta.75",
     "@percy/ember": "^3.0.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^2.4.0",
