@@ -32,7 +32,7 @@
     "@embroider/compat": "^1.5.0",
     "@embroider/core": "^1.0.0",
     "@embroider/webpack": "^1.5.0",
-    "@glimmer/component": "^1.0.4",
+    "@glimmer/component": "^1.1.0",
     "@glimmer/tracking": "^1.1.0",
     "@percy/cli": "^1.0.0-beta.76",
     "@percy/ember": "^3.0.0",
