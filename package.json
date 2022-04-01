@@ -33,7 +33,7 @@
     "@embroider/core": "^1.0.0",
     "@embroider/webpack": "^1.5.0",
     "@glimmer/component": "^1.1.0",
-    "@glimmer/tracking": "^1.1.0",
+    "@glimmer/tracking": "^1.1.1",
     "@percy/cli": "^1.0.0-beta.76",
     "@percy/ember": "^3.0.0",
     "broccoli-asset-rev": "^3.0.0",
