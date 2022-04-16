@@ -30,7 +30,7 @@
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.7.0",
     "@embroider/compat": "^1.6.0",
-    "@embroider/core": "^1.0.0",
+    "@embroider/core": "^1.6.0",
     "@embroider/webpack": "^1.6.0",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
@@ -77,18 +77,13 @@
     "qunit-dom": "^2.0.0",
     "webpack": "^5.72.0"
   },
-  "overrides": {
-    "ember-template-recast": {
-      "colors": "1.4.0"
-    }
-  },
   "engines": {
-    "node": "12.* || 14.* || >= 16",
+    "node": "16",
     "npm": "8.x"
   },
   "volta": {
-    "node": "16.13.1",
-    "npm": "8.3.0"
+    "node": "16.14.2",
+    "npm": "8.5.0"
   },
   "ember": {
     "edition": "octane"
