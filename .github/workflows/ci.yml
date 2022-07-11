@@ -15,6 +15,7 @@ jobs:
   lint:
     name: 'Lint'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v3
@@ -25,6 +26,7 @@ jobs:
   test:
     name: 'Test'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     env:
       PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
@@ -38,6 +40,7 @@ jobs:
   deployment:
     name: 'Deployment'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [test]
 
     if: github.ref == 'refs/heads/main'
