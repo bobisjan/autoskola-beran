@@ -77,12 +77,12 @@
     "webpack": "^5.74.0"
   },
   "engines": {
-    "node": "16",
-    "npm": "8.x"
+    "node": "16.16.0",
+    "npm": "8.15.0"
   },
   "volta": {
-    "node": "16.14.2",
-    "npm": "8.5.0"
+    "node": "16.16.0",
+    "npm": "8.15.0"
   },
   "ember": {
     "edition": "octane"
