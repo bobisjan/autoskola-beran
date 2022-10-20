@@ -6,7 +6,7 @@ const { compatBuild } = require('@embroider/compat');
 const { prerender } = require('prember');
 
 module.exports = function (defaults) {
-  let app = new EmberApp(defaults, {
+  const app = new EmberApp(defaults, {
     prember: {
       urls: ['/'],
     },
