@@ -13,8 +13,8 @@ const date = new Intl.DateTimeFormat(locale);
 
 export default class ApplicationRoute extends Route {
   model() {
-    let price = number.format(18000);
-    let since = date.format(new Date(2022, 0, 1));
+    let price = number.format(20000);
+    let since = date.format(new Date(2023, 0, 1));
 
     return {
       price,
