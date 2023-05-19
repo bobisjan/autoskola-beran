@@ -1,13 +1,13 @@
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'autoskola-beran/tests/helpers';
 import { render } from '@ember/test-helpers';
-import { hbs } from 'ember-cli-htmlbars';
+import Email from 'autoskola-beran/components/contact/email';
 
 module('Integration | Component | contact/email', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function (assert) {
-    await render(hbs`<Contact::Email />`);
+    await render(<template><Email /></template>);
 
     assert.dom('.email').hasText('ladislavberan@seznam.cz');
     assert.dom('.email').hasAttribute('href', 'mailto:ladislavberan@seznam.cz');

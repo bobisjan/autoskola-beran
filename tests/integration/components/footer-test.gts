@@ -1,13 +1,13 @@
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'autoskola-beran/tests/helpers';
 import { render } from '@ember/test-helpers';
-import { hbs } from 'ember-cli-htmlbars';
+import Footer from 'autoskola-beran/components/footer';
 
 module('Integration | Component | footer', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function (assert) {
-    await render(hbs`<Footer />`);
+    await render(<template><Footer /></template>);
 
     assert.dom('.phone').exists();
     assert.dom('.email').exists();
