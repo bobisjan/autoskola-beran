@@ -7,4 +7,12 @@ module.exports = {
     'ember-template-lint-plugin-prettier:recommended',
   ],
   plugins: ['ember-template-lint-plugin-prettier'],
+  overrides: [
+    {
+      files: ['**/*.{gjs,gts}'],
+      rules: {
+        prettier: false,
+      },
+    },
+  ],
 };
