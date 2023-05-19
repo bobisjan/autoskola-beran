@@ -10,6 +10,10 @@ module.exports = function (defaults) {
     prember: {
       urls: ['/'],
     },
+
+    babel: {
+      sourceMaps: 'inline',
+    },
   });
 
   return prerender(
@@ -20,6 +24,11 @@ module.exports = function (defaults) {
       staticHelpers: true,
       staticModifiers: true,
       staticComponents: true,
+      packageroptions: {
+        webpackConfig: {
+          devtool: 'source-map',
+        },
+      },
     })
   );
 };
