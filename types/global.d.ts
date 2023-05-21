@@ -5,3 +5,8 @@ declare module 'autoskola-beran/templates/*' {
   const tmpl: TemplateFactory;
   export default tmpl;
 }
+
+declare module '*.jpg' {
+  const path: string;
+  export default path;
+}
