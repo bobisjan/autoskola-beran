@@ -24,9 +24,21 @@ module.exports = function (defaults) {
       staticHelpers: true,
       staticModifiers: true,
       staticComponents: true,
-      packageroptions: {
+      packagerOptions: {
         webpackConfig: {
           devtool: 'source-map',
+          module: {
+            rules: [
+              {
+                test: /\.(jpg)$/i,
+                type: 'asset',
+                generator: {
+                  publicPath: '/assets/',
+                  outputPath: 'assets/',
+                },
+              },
+            ],
+          },
         },
       },
     })

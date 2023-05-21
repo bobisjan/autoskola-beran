@@ -916,3 +916,20 @@ ul.actions.vertical.small li:first-child {
     min-width: 320px;
   }
 }
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+}
+
+@media screen and (width >= 480px) {
+  .images {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.images img {
+  max-width: 100%;
+  border: #bbb solid 6px;
+}
