@@ -32,7 +32,7 @@
     "@checkup/cli": "^2.2.0",
     "@ember/optional-features": "^2.0.0",
     "@ember/string": "^3.1.1",
-    "@ember/test-helpers": "^2.9.4",
+    "@ember/test-helpers": "^3.1.0",
     "@embroider/compat": "^3.0.2",
     "@embroider/core": "^3.0.1",
     "@embroider/webpack": "^3.0.0",
@@ -73,7 +73,7 @@
     "checkup-plugin-javascript": "^2.2.0",
     "concurrently": "^8.2.0",
     "ember-auto-import": "^2.6.3",
-    "ember-cli": "~4.12.1",
+    "ember-cli": "~5.0.0",
     "ember-cli-app-version": "^6.0.1",
     "ember-cli-babel": "^7.26.11",
     "ember-cli-dependency-checker": "^3.3.2",
@@ -83,7 +83,7 @@
     "ember-cli-deploy-manifest": "^3.0.0",
     "ember-cli-deploy-s3": "^4.0.0",
     "ember-cli-fastboot": "^4.1.1",
-    "ember-cli-fastboot-testing": "^0.6.0",
+    "ember-cli-fastboot-testing": "https://github.com/embermap/ember-cli-fastboot-testing.git#dbad33979d01e3e8b4f7092c5ea6f01bb77d26bf",
     "ember-cli-htmlbars": "^6.2.0",
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
@@ -92,9 +92,9 @@
     "ember-load-initializers": "^2.1.2",
     "ember-modifier": "^4.1.0",
     "ember-page-title": "^7.0.0",
-    "ember-qunit": "^6.2.0",
+    "ember-qunit": "^7.0.0",
     "ember-resolver": "^10.1.1",
-    "ember-source": "~4.12.0",
+    "ember-source": "~5.0.0",
     "ember-template-imports": "^3.4.2",
     "ember-template-lint": "^5.10.3",
     "ember-template-lint-plugin-prettier": "^4.2.0",
@@ -121,12 +121,12 @@
     "webpack": "^5.87.0"
   },
   "engines": {
-    "node": "16.18.0",
-    "npm": "8.19.2"
+    "node": "18.16.0",
+    "npm": "9.5.1"
   },
   "volta": {
-    "node": "16.18.0",
-    "npm": "8.19.2"
+    "node": "18.16.0",
+    "npm": "9.5.1"
   },
   "ember": {
     "edition": "octane"

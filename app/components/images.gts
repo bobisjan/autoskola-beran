@@ -10,9 +10,9 @@ export interface ImagesSignature {
 const Images: TOC<ImagesSignature> = <template>
   <h2>MG ZS</h2>
   <div class="images">
-    <img src={{mgzs1}} alt="" role="presentation" />
-    <img src={{mgzs2}} alt="" role="presentation" />
-    <img src={{mgzs3}} alt="" role="presentation" />
+    <img src={{mgzs1}} alt="" />
+    <img src={{mgzs2}} alt="" />
+    <img src={{mgzs3}} alt="" />
   </div>
 </template>;
 
