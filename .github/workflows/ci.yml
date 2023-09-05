@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: volta-cli/action@v4.0.1
       - run: npm ci
       - run: npm run lint
@@ -32,7 +32,7 @@ jobs:
       PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: volta-cli/action@v4.0.1
       - run: npm ci
       - run: npm test
@@ -54,7 +54,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: volta-cli/action@v4.0.1
       - run: npm ci
       - run: npm run deploy
