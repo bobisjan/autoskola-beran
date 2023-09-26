@@ -14,6 +14,8 @@ module.exports = function (defaults) {
     babel: {
       sourceMaps: 'inline',
     },
+
+    'ember-cli-babel': { enableTypeScriptTransform: true },
   });
 
   return prerender(
@@ -41,6 +43,6 @@ module.exports = function (defaults) {
           },
         },
       },
-    })
+    }),
   );
 };
