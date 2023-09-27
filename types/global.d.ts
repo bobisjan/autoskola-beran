@@ -1,10 +1,5 @@
-// Types for compiled templates
-declare module 'autoskola-beran/templates/*' {
-  import { TemplateFactory } from 'ember-cli-htmlbars';
-
-  const tmpl: TemplateFactory;
-  export default tmpl;
-}
+import '@glint/environment-ember-loose';
+import '@glint/environment-ember-template-imports';
 
 declare module '*.jpg' {
   const path: string;
