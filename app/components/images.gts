@@ -17,9 +17,3 @@ const Images: TOC<ImagesSignature> = <template>
 </template>;
 
 export default Images;
-
-declare module '@glint/environment-ember-loose/registry' {
-  export default interface Registry {
-    Images: typeof Images;
-  }
-}

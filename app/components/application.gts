@@ -29,9 +29,3 @@ const Application: TOC<ApplicationSignature> = <template>
 </template>;
 
 export default Application;
-
-declare module '@glint/environment-ember-loose/registry' {
-  export default interface Registry {
-    Application: typeof Application;
-  }
-}
