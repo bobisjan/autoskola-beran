@@ -1,21 +1,12 @@
 'use strict';
 
 module.exports = {
-  extends: [
-    'recommended',
-    'stylistic',
-    'ember-template-lint-plugin-prettier:recommended',
-  ],
-  plugins: ['ember-template-lint-plugin-prettier'],
+  extends: ['recommended', 'stylistic'],
   rules: {
-    'no-redundant-role': false,
+    'block-indentation': false,
+    'eol-last': false,
+    'linebreak-style': false,
+    quotes: false,
+    'self-closing-void-elements': false,
   },
-  overrides: [
-    {
-      files: ['**/*.{gjs,gts}'],
-      rules: {
-        prettier: false,
-      },
-    },
-  ],
 };
