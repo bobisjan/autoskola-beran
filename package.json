@@ -89,7 +89,7 @@
     "eslint-plugin-qunit": "^8.0.1",
     "husky": "^8.0.3",
     "iframe-resizer": "^4.3.9",
-    "lint-staged": "^15.0.2",
+    "lint-staged": "^15.1.0",
     "loader.js": "^4.7.0",
     "prember": "^2.0.0",
     "prettier": "^3.0.3",
