@@ -24,7 +24,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-- `ember serve`
+- `npm run start`
 - Visit your app at [http://localhost:4200](http://localhost:4200).
 - Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
@@ -34,8 +34,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Running Tests
 
-- `ember test`
-- `ember test --server`
+- `npm run test`
+- `npm run test:ember -- --server`
 
 ### Linting
 
@@ -44,8 +44,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Building
 
-- `ember build` (development)
-- `ember build --environment production` (production)
+- `npm exec ember build` (development)
+- `npm run build` (production)
 
 ### Deploying
 
