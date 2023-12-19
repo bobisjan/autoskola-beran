@@ -47,7 +47,7 @@
     "@glint/template": "^1.2.1",
     "@percy/cli": "^1.27.5",
     "@percy/ember": "^4.2.0",
-    "@tsconfig/ember": "^3.0.2",
+    "@tsconfig/ember": "^3.0.3",
     "@types/iframe-resizer": "^3.5.13",
     "@types/qunit": "^2.19.9",
     "@types/rsvp": "^4.0.8",
