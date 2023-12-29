@@ -129,5 +129,4 @@ const template: TOC<IndexRouteSignature> = <template>
     </div>
   </section>
 </template>;
-
 export default RouteTemplate(template);

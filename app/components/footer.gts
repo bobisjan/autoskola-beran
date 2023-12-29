@@ -23,5 +23,4 @@ const Footer: TOC<FooterSignature> = <template>
     </div>
   </footer>
 </template>;
-
 export default Footer;
