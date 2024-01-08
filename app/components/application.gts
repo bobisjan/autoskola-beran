@@ -27,5 +27,4 @@ const Application: TOC<ApplicationSignature> = <template>
     rel="noopener noreferrer"
   >moderní evidence autoškoly</a>.
 </template>;
-
 export default Application;

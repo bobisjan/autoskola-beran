@@ -9,5 +9,4 @@ const Address: TOC<AddressSignature> = <template>
     Horní Chvatliny 15, Zásmuky, 281&nbsp;44
   </div>
 </template>;
-
 export default Address;

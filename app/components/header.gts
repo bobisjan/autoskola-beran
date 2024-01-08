@@ -17,5 +17,4 @@ const Header: TOC<HeaderSignature> = <template>
     </nav>
   </header>
 </template>;
-
 export default Header;
