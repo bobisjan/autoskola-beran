@@ -31,7 +31,7 @@ const template: TOC<IndexRouteSignature> = <template>
             úskalí a vyzkoušíme elektronickou podobu zkušebních testů. Žáci,
             kteří si nejsou tak jisti v práci s počítačem si zde jeho ovládání
             osvojí, aby je tato skutečnost neznervózňovala u závěrečných
-            zkoušek. Konzultace jsou plánovány tak, že žáci se k učebně dopraví
+            zkoušek. Konzultace jsou plánovány tak, že žáci se k učebně dopraví
             po jízdách, nebo po domluvě je do učebny dopravíme.</p>
         </div>
       </div>
@@ -39,11 +39,11 @@ const template: TOC<IndexRouteSignature> = <template>
       <div class="flex-item">
         <div>
           <h3>Jízdy</h3>
-          <p>Jízdy probíhají v počátku v mírnějším provozu a po získání určité
+          <p>Jízdy probíhají v počátku v mírnějším provozu a po získání určité
             praxe se soustřeďujeme na městský provoz a jeho jednotlivá úskalí.
             Jednotlivé jízdy začínají po dohodě v místech, které se hodí oběma.
             Tudíž žáky škol vyzvedáváme většinou v okolí škol, popřípadě doma a
-            jízdu ukončujeme také podle potřeby, nejčastěji v bydlišti žáků.
+            jízdu ukončujeme také podle potřeby, nejčastěji v bydlišti žáků.
             Jakékoli další nejasnosti Vám rádi zodpovíme, a najdeme s Vámi
             vhodný styl výuky a výcviku právě pro Vás.</p>
         </div>
@@ -55,11 +55,11 @@ const template: TOC<IndexRouteSignature> = <template>
         <div>
           <h3>Nové vozidlo</h3>
           {{! template-lint-disable no-whitespace-within-word }}
-          <p>Připravil jsem pro vás nové výukové vozidlo MG ZS 1,5. Jedná se
-            o v současnosti populární typ vozidla stylu městského SUV. Vozidlo
-            je vyšší, je z něho dobrý výhled, je lehce ovladatelné a vybavené
+          <p>Připravil jsem pro vás nové výukové vozidlo MG ZS 1,5. Jedná se o v
+            současnosti populární typ vozidla stylu městského SUV. Vozidlo je
+            vyšší, je z něho dobrý výhled, je lehce ovladatelné a vybavené
             spoustou asistentů. Nechybí tedy ABS ani zadní parkovací senzory a
-            je vybaveno samozřejmě klimatizací do letních dnů. Jízda s ním je
+            je vybaveno samozřejmě klimatizací do letních dnů. Jízda s ním je
             velice příjemná a pro žáky poskytuje vhodné prostředí pro získání
             řidičských návyků.</p>
         </div>
@@ -95,8 +95,8 @@ const template: TOC<IndexRouteSignature> = <template>
       </figure>
 
       <p>V ceně je zahrnuto zapůjčení učebnic, výukových CD a zdravotní
-        příprava. Dále v případě neúspěchu není účtována jedna kondiční jízda a
-        přistavení vozidla k opravné zkoušce. Cenu je možné zaplatit na splátky
+        příprava. Dále v případě neúspěchu není účtována jedna kondiční jízda a
+        přistavení vozidla k opravné zkoušce. Cenu je možné zaplatit na splátky
         bez navýšení, maximálně tři splátky.</p>
       <p>K ceně je pouze nutno připočítat správní poplatek městskému úřadu za
         zkoušky.</p>
