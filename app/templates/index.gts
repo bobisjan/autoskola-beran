@@ -10,7 +10,7 @@ interface IndexRouteSignature {
   };
 }
 
-const template: TOC<IndexRouteSignature> = <template>
+const Template: TOC<IndexRouteSignature> = <template>
   <section class="wrapper">
     <div class="inner">
       <header class="align-center">
@@ -129,4 +129,4 @@ const template: TOC<IndexRouteSignature> = <template>
     </div>
   </section>
 </template>;
-export default RouteTemplate(template);
+export default RouteTemplate(Template);

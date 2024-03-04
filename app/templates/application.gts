@@ -5,10 +5,10 @@ import Footer from '../components/footer';
 
 interface ApplicationRouteSignature {}
 
-const template: TOC<ApplicationRouteSignature> = <template>
+const Template: TOC<ApplicationRouteSignature> = <template>
   <Header />
   {{outlet}}
   <Footer />
 </template>;
 
-export default RouteTemplate(template);
+export default RouteTemplate(Template);
