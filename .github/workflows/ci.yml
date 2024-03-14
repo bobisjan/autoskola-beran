@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: volta-cli/action@v4.0.1
+      - uses: volta-cli/action@v4.1.1
       - run: npm ci
       - run: npm run lint
 
@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: volta-cli/action@v4.0.1
+      - uses: volta-cli/action@v4.1.1
       - run: npm ci
       - run: npm test
 
@@ -55,6 +55,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: volta-cli/action@v4.0.1
+      - uses: volta-cli/action@v4.1.1
       - run: npm ci
       - run: npm run deploy
