@@ -51,7 +51,7 @@
     "@types/iframe-resizer": "^3.5.13",
     "@types/qunit": "^2.19.10",
     "@types/rsvp": "^4.0.9",
-    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.12.0",
     "broccoli-asset-rev": "^3.0.0",
     "checkup-plugin-ember": "^3.0.1",
