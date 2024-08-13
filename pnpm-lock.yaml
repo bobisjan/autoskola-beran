@@ -171,8 +171,8 @@ importers:
         specifier: ^9.1.4
         version: 9.1.4
       iframe-resizer:
-        specifier: ^4.4.5
-        version: 4.4.5
+        specifier: ^5.2.3
+        version: 5.2.3
       lint-staged:
         specifier: ^15.2.9
         version: 15.2.9
@@ -1336,6 +1336,18 @@ packages:
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
+
+  '@iframe-resizer/child@5.2.3':
+    resolution: {integrity: sha512-YzwCZkbFMPn7OPmkb9om3/SoEn+BBrPUFfpwWqkuPR5IagWdcRARWBaBhazcTNNIdXDbkCdzA5Y38S4dqnSIiw==}
+
+  '@iframe-resizer/core@5.2.3':
+    resolution: {integrity: sha512-xvE+d0gQatCqKEayPgvPVqXHqpNuqdjsgvnAxPP9mmgxEfmvGK0VVMvSnt4QtixK5Hxhl6129p+BkyPotXietQ==}
+
+  '@iframe-resizer/jquery@5.2.3':
+    resolution: {integrity: sha512-6hqeqcN0gfqLGWg3V7oM8nqXoNZji4NWhp/2nQsl6jxVlSpIBs3ov5rLgS/Jh6JqRA//emepBFsUryB1xvrSKA==}
+
+  '@iframe-resizer/parent@5.2.3':
+    resolution: {integrity: sha512-ERiGbuoBnsLUT2QJMkFf224dPTF4rkGQVwDvviVNljMZJCHc0cK9nV3rk86KcqeFozzQe2bItVt9tI6s7tucAA==}
 
   '@inquirer/figures@1.0.5':
     resolution: {integrity: sha512-79hP/VWdZ2UVc9bFGJnoQ/lQMpL74mGgzSYX1xUqCVk7/v73vJCMw1VuyWN1jGkZ9B3z7THAbySqGbCNefcjfA==}
@@ -4403,9 +4415,8 @@ packages:
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
 
-  iframe-resizer@4.4.5:
-    resolution: {integrity: sha512-U8bCywf/Gh07O69RXo6dXAzTtODQrxaHGHRI7Nt4ipXsuq6EMxVsOP/jjaP43YtXz/ibESS0uSVDN3sOGCzSmw==}
-    engines: {node: '>=0.8.0'}
+  iframe-resizer@5.2.3:
+    resolution: {integrity: sha512-PdHPVFLJ668j5FindSa8VkokEHkezJ8rCxi3RHNqE/NDsv7jWtSvhQ9FvgU2n/eDRviF2uMy/EZ4lFv2cSUo+Q==}
 
   ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
@@ -9573,6 +9584,18 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
+  '@iframe-resizer/child@5.2.3': {}
+
+  '@iframe-resizer/core@5.2.3': {}
+
+  '@iframe-resizer/jquery@5.2.3':
+    dependencies:
+      '@iframe-resizer/core': 5.2.3
+
+  '@iframe-resizer/parent@5.2.3':
+    dependencies:
+      '@iframe-resizer/core': 5.2.3
+
   '@inquirer/figures@1.0.5': {}
 
   '@isaacs/cliui@8.0.2':
@@ -13939,7 +13962,11 @@ snapshots:
 
   ieee754@1.2.1: {}
 
-  iframe-resizer@4.4.5: {}
+  iframe-resizer@5.2.3:
+    dependencies:
+      '@iframe-resizer/child': 5.2.3
+      '@iframe-resizer/jquery': 5.2.3
+      '@iframe-resizer/parent': 5.2.3
 
   ignore@5.3.1: {}
 
