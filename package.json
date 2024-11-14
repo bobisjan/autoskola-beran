@@ -43,7 +43,7 @@
     "@glint/environment-ember-loose": "^1.5.0",
     "@glint/environment-ember-template-imports": "^1.5.0",
     "@glint/template": "^1.5.0",
-    "@percy/cli": "^1.30.1",
+    "@percy/cli": "^1.30.2",
     "@percy/ember": "^4.2.0",
     "@tsconfig/ember": "^3.0.8",
     "@types/iframe-resizer": "^3.5.13",
