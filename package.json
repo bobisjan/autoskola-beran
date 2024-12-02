@@ -31,12 +31,15 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
+    "@babel/eslint-parser": "^7.25.9",
+    "@babel/plugin-proposal-decorators": "^7.25.9",
     "@ember/optional-features": "^2.2.0",
     "@ember/string": "^4.0.0",
     "@ember/test-helpers": "^4.0.4",
     "@embroider/compat": "^3.7.0",
     "@embroider/core": "^3.4.19",
     "@embroider/webpack": "^4.0.8",
+    "@eslint/js": "^9.16.0",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
     "@glint/core": "^1.5.0",
@@ -82,7 +85,9 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-ember": "^12.3.3",
     "eslint-plugin-n": "^17.14.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-qunit": "^8.1.2",
+    "globals": "^15.13.0",
     "husky": "^9.1.7",
     "iframe-resizer": "^4.4.5",
     "lint-staged": "^15.2.10",
@@ -96,6 +101,7 @@
     "stylelint-config-standard": "^36.0.1",
     "tracked-built-ins": "^3.3.0",
     "typescript": "^5.7.2",
+    "typescript-eslint": "^8.17.0",
     "webpack": "^5.96.1"
   },
   "overrides": {
