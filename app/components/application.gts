@@ -1,6 +1,7 @@
 import type { TOC } from '@ember/component/template-only';
 import resizer from '../modifiers/iframe-resizer';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface ApplicationSignature {}
 
 const Application: TOC<ApplicationSignature> = <template>
