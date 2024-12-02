@@ -12,6 +12,7 @@
       "autoskola-beran/tests/*": ["tests/*"],
       "autoskola-beran/*": ["app/*"],
       "*": ["types/*"]
-    }
+    },
+    "types": ["ember-source/types"]
   }
 }
