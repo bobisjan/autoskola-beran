@@ -89,7 +89,6 @@
     "eslint-plugin-qunit": "^8.1.2",
     "globals": "^15.14.0",
     "husky": "^9.1.7",
-    "iframe-resizer": "^4.4.5",
     "lint-staged": "^15.2.11",
     "loader.js": "^4.7.0",
     "prember": "^2.1.0",
