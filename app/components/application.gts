@@ -1,5 +1,4 @@
 import type { TOC } from '@ember/component/template-only';
-import resizer from '../modifiers/iframe-resizer';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface ApplicationSignature {}
@@ -10,10 +9,9 @@ const Application: TOC<ApplicationSignature> = <template>
   <iframe
     src="https://beran.moje-autoskola.cz/prihlaska.php?iframe=1"
     width="95%"
-    height="1050px"
+    height="560px"
     rel="nofollow"
     title="MOJE AUTOŠKOLA"
-    {{resizer}}
   ></iframe>
   <br /><br />On-line přihlašování žáků do autoškoly zajišťuje aplikace
   <a
