@@ -13,6 +13,6 @@
       "autoskola-beran/*": ["app/*"],
       "*": ["types/*"]
     },
-    "types": ["ember-source/types"]
+    "types": ["./node_modules/ember-source/types/stable"]
   }
 }
