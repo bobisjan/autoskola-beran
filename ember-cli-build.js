@@ -23,9 +23,7 @@ module.exports = function (defaults) {
     compatBuild(app, Webpack, {
       staticAddonTestSupportTrees: true,
       staticAddonTrees: true,
-      staticHelpers: true,
-      staticModifiers: true,
-      staticComponents: true,
+      staticInvokables: true,
       packagerOptions: {
         webpackConfig: {
           devtool: 'source-map',
