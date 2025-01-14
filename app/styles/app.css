@@ -153,10 +153,6 @@ table {
 
 /* Basic */
 
-@viewport {
-  width: device-width;
-}
-
 @media screen and (max-width: 480px) {
   html,
   body {
@@ -692,7 +688,6 @@ ul.actions.vertical.small li:first-child {
 /* Flex */
 
 .flex {
-  display: -ms-flex;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
