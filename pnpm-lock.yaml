@@ -69,8 +69,8 @@ importers:
         specifier: ^8.42.3
         version: 8.42.3
       '@types/iframe-resizer':
-        specifier: ^3.5.13
-        version: 3.5.13
+        specifier: ^4.0.0
+        version: 4.0.0
       '@types/qunit':
         specifier: ^2.19.12
         version: 2.19.12
@@ -1790,8 +1790,8 @@ packages:
   '@types/http-errors@2.0.4':
     resolution: {integrity: sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==}
 
-  '@types/iframe-resizer@3.5.13':
-    resolution: {integrity: sha512-/Np2ntlOWd/NOHs23Mj7QlNEnZ6SL02AWWdYZLm4RQNukDdpqpagfMAdin5FvQDLngR8LWfh/qUnYxuDmR8BCg==}
+  '@types/iframe-resizer@4.0.0':
+    resolution: {integrity: sha512-RKrT4goNVtqZvf9WPkV0cUcphQWXzLVW1IE4yOIY21c1W+obJJbcHFD1lQu5ncNHm/6TeQSeedVf9bmkx2NaGQ==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -9752,7 +9752,7 @@ snapshots:
 
   '@types/http-errors@2.0.4': {}
 
-  '@types/iframe-resizer@3.5.13': {}
+  '@types/iframe-resizer@4.0.0': {}
 
   '@types/json-schema@7.0.15': {}
 
