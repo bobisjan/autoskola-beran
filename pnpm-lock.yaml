@@ -36,8 +36,8 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9(@embroider/core@3.5.0(@glint/template@1.5.1))(webpack@5.97.1)
       '@eslint/js':
-        specifier: ^9.18.0
-        version: 9.18.0
+        specifier: ^9.19.0
+        version: 9.19.0
       '@glimmer/component':
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.26.0)
@@ -1165,6 +1165,10 @@ packages:
 
   '@eslint/js@9.18.0':
     resolution: {integrity: sha512-fK6L7rxcq6/z+AaQMtiFTkvbHkBLNlwyRxHpKawP0x3u9+NC6MQTnFW+AdpwC6gfHTW0051cokQgtTN2FqlxQA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@eslint/js@9.19.0':
+    resolution: {integrity: sha512-rbq9/g38qjfqFLOVPvwjIvFFdNziEC5S65jmjPw5r6A//QH+W91akh9irMwjDN8zKUTak6W9EsAv4m/7Wnw0UQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/object-schema@2.1.4':
@@ -5163,6 +5167,7 @@ packages:
 
   lodash.omit@4.5.0:
     resolution: {integrity: sha512-XeqSp49hNGmlkj2EJlfrQFIzQ6lXdNro9sddtQzcJY8QaoC2GO0DT7xaIokHeyM+mIT0mPMlPvkYzg2xCuHdZg==}
+    deprecated: This package is deprecated. Use destructuring assignment syntax instead.
 
   lodash.truncate@4.4.2:
     resolution: {integrity: sha512-jttmRe7bRse52OsWIMDLaXxWqRAmtIUccAQ3garviCqJjafXOfNMO0yMfNpdD6zbGaTU0P5Nz7e7gAT6cKmJRw==}
@@ -9047,6 +9052,8 @@ snapshots:
       - supports-color
 
   '@eslint/js@9.18.0': {}
+
+  '@eslint/js@9.19.0': {}
 
   '@eslint/object-schema@2.1.4': {}
 
