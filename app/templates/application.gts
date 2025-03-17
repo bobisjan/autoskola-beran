@@ -1,4 +1,3 @@
-import RouteTemplate from 'ember-route-template';
 import type { TOC } from '@ember/component/template-only';
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -12,4 +11,4 @@ const Template: TOC<ApplicationRouteSignature> = <template>
   <Footer />
 </template>;
 
-export default RouteTemplate(Template);
+export default Template;
