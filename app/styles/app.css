@@ -1,4 +1,3 @@
-/* eslint-disable css/require-baseline */
 @charset "UTF-8";
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico");
@@ -116,6 +115,7 @@ section {
 
 body {
   line-height: 1;
+  /* eslint-disable-next-line css/use-baseline */
   text-size-adjust: none;
   background: #fff;
   padding-top: 6em;
