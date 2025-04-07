@@ -11,11 +11,11 @@ module.exports = function (defaults) {
       urls: ['/'],
     },
 
+    'ember-cli-babel': { enableTypeScriptTransform: true },
+
     babel: {
       sourceMaps: 'inline',
     },
-
-    'ember-cli-babel': { enableTypeScriptTransform: true },
   });
 
   return prerender(
