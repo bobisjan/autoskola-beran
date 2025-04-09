@@ -5,10 +5,8 @@ import Footer from '../components/footer';
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface ApplicationRouteSignature {}
 
-const Template: TOC<ApplicationRouteSignature> = <template>
+export default <template>
   <Header />
   {{outlet}}
   <Footer />
-</template>;
-
-export default Template;
+</template> satisfies TOC<ApplicationRouteSignature>;

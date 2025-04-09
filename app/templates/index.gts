@@ -9,7 +9,7 @@ interface IndexRouteSignature {
   };
 }
 
-const Template: TOC<IndexRouteSignature> = <template>
+export default <template>
   <section class="wrapper">
     <div class="inner">
       <header class="align-center">
@@ -127,6 +127,4 @@ const Template: TOC<IndexRouteSignature> = <template>
       >Žádost o přijetí k výuce a výcviku</a>
     </div>
   </section>
-</template>;
-
-export default Template;
+</template> satisfies TOC<IndexRouteSignature>;

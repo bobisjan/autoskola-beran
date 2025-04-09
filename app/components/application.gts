@@ -3,7 +3,7 @@ import type { TOC } from '@ember/component/template-only';
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface ApplicationSignature {}
 
-const Application: TOC<ApplicationSignature> = <template>
+export default <template>
   <h2>Přihláška on-line</h2>
 
   <iframe
@@ -25,5 +25,4 @@ const Application: TOC<ApplicationSignature> = <template>
     target="_blank"
     rel="noopener noreferrer"
   >moderní evidence autoškoly</a>.
-</template>;
-export default Application;
+</template> satisfies TOC<ApplicationSignature>;

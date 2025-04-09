@@ -7,13 +7,11 @@ export interface ImagesSignature {
   Element: HTMLElement;
 }
 
-const Images: TOC<ImagesSignature> = <template>
+export default <template>
   <h2>MG ZS</h2>
   <div class="images">
     <img src={{mgzs1}} alt="" />
     <img src={{mgzs2}} alt="" />
     <img src={{mgzs3}} alt="" />
   </div>
-</template>;
-
-export default Images;
+</template> satisfies TOC<ImagesSignature>;

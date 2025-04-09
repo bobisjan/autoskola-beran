@@ -4,10 +4,8 @@ export interface EmailSignature {
   Element: HTMLAnchorElement;
 }
 
-const Email: TOC<EmailSignature> = <template>
+export default <template>
   <a href="mailto:ladislavberan@seznam.cz" class="email">
     ladislavberan@seznam.cz
   </a>
-</template>;
-
-export default Email;
+</template> satisfies TOC<EmailSignature>;
