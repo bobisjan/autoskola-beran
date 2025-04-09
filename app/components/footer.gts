@@ -7,7 +7,7 @@ export interface FooterSignature {
   Element: HTMLElement;
 }
 
-const Footer: TOC<FooterSignature> = <template>
+export default <template>
   <footer id="footer">
     <div class="inner">
       <h2>Kontakt</h2>
@@ -22,5 +22,4 @@ const Footer: TOC<FooterSignature> = <template>
       <a href="https://templated.co">TEMPLATED</a>.
     </div>
   </footer>
-</template>;
-export default Footer;
+</template> satisfies TOC<FooterSignature>;

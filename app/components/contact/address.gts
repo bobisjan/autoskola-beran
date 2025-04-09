@@ -4,9 +4,8 @@ export interface AddressSignature {
   Element: HTMLDivElement;
 }
 
-const Address: TOC<AddressSignature> = <template>
+export default <template>
   <div class="address">
     Horní Chvatliny 15, Zásmuky, 281&nbsp;44
   </div>
-</template>;
-export default Address;
+</template> satisfies TOC<AddressSignature>;
