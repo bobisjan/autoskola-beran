@@ -97,7 +97,7 @@
     "tracked-built-ins": "^4.0.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.29.1",
-    "webpack": "^5.99.0"
+    "webpack": "^5.99.3"
   },
   "overrides": {
     "@glimmer/tracking": {
