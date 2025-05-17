@@ -510,7 +510,7 @@ button.alt,
 .button.alt {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px #dee1e3;
-  color: #727a82 !important;
+  color: #727a82;
 }
 
 input[type="submit"].alt:hover,
@@ -543,7 +543,7 @@ input[type="button"].special,
 button.special,
 .button.special {
   background-color: #25a2c3;
-  color: #fff !important;
+  color: #fff;
 }
 
 input[type="submit"].special:hover,
@@ -572,9 +572,9 @@ button.disabled,
 button:disabled,
 .button.disabled,
 .button:disabled {
-  background-color: #767d85 !important;
+  background-color: #767d85;
   box-shadow: inset 0 -0.15em 0 0 rgb(0 0 0 / 15%);
-  color: #fff !important;
+  color: #fff;
   cursor: default;
   opacity: 0.25;
 }
@@ -670,7 +670,7 @@ ul.actions.vertical.small li:first-child {
 
   ul.actions li > * {
     width: 100%;
-    margin: 0 !important;
+    margin: 0;
   }
 
   ul.actions li > *.icon::before {
