@@ -1,4 +1,4 @@
-import { globalIgnores } from 'eslint/config';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import globals from 'globals';
 import js from '@eslint/js';
 import css from '@eslint/css';
@@ -35,7 +35,7 @@ const parserOptions = {
   },
 };
 
-export default ts.config(
+export default defineConfig(
   { files: ['**/*.{js,ts,cjs,mjs,mts}'], rules: js.configs.recommended.rules },
   ember.configs.base,
   ember.configs.gjs,
