@@ -20,7 +20,7 @@
     "lint:js": "eslint . --cache --concurrency=auto",
     "lint:js:fix": "eslint . --cache --concurrency=auto --fix",
     "lint:hbs": "ember-template-lint .",
-    "lint:types": "glint",
+    "lint:types": "ember-tsc",
     "start": "PREMBER=true ember serve",
     "test": "percy exec -- ember test",
     "deploy": "ember deploy production",
@@ -39,10 +39,8 @@
     "@eslint/css": "^0.12.0",
     "@eslint/js": "^9.37.0",
     "@glimmer/component": "^2.0.0",
-    "@glint/core": "^1.5.2",
-    "@glint/environment-ember-loose": "^1.5.2",
-    "@glint/environment-ember-template-imports": "^1.5.2",
-    "@glint/template": "^1.5.2",
+    "@glint/ember-tsc": "^1.0.3",
+    "@glint/tsserver-plugin": "^2.0.3",
     "@percy/cli": "^1.31.2",
     "@percy/ember": "^5.0.0",
     "@tsconfig/ember": "^3.0.11",
@@ -94,6 +92,9 @@
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.0",
     "webpack": "^5.102.1"
+  },
+  "dependencies": {
+    "@glint/template": "^1.6.1"
   },
   "engines": {
     "node": "22.17.1",

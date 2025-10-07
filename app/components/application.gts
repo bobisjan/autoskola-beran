@@ -10,7 +10,6 @@ export default <template>
     src="https://beran.moje-autoskola.cz/prihlaska.php?iframe=1"
     width="95%"
     height="560px"
-    rel="nofollow"
     title="MOJE AUTOŠKOLA"
   ></iframe>
   <br /><br />On-line přihlašování žáků do autoškoly zajišťuje aplikace
