@@ -1,0 +1,5 @@
+<template>
+  <a href="tel:+420724237845" class="phone" ...attributes>
+    +420 724 237 845
+  </a>
+</template>

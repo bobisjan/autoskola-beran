@@ -1,7 +1,5 @@
 import Route from '@ember/routing/route';
 
-export type ApplicationRouteModel = ReturnType<ApplicationRoute['model']>;
-
 const locale = 'cs-CZ';
 
 const number = new Intl.NumberFormat(locale, {

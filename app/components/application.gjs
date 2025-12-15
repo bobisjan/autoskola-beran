@@ -1,9 +1,4 @@
-import type { TOC } from '@ember/component/template-only';
-
-// eslint-disable-next-line @typescript-eslint/no-empty-object-type
-export interface ApplicationSignature {}
-
-export default <template>
+<template>
   <h2>Přihláška on-line</h2>
 
   <iframe
@@ -24,4 +19,4 @@ export default <template>
     target="_blank"
     rel="noopener noreferrer"
   >moderní evidence autoškoly</a>.
-</template> satisfies TOC<ApplicationSignature>;
+</template>

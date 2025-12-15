@@ -20,7 +20,6 @@
     "lint:js": "eslint . --cache --concurrency=auto",
     "lint:js:fix": "eslint . --cache --concurrency=auto --fix",
     "lint:hbs": "ember-template-lint .",
-    "lint:types": "ember-tsc",
     "start": "PREMBER=true ember serve",
     "test": "percy exec -- ember test",
     "deploy": "ember deploy production",
@@ -39,14 +38,8 @@
     "@eslint/css": "^0.14.1",
     "@eslint/js": "^9.39.2",
     "@glimmer/component": "^2.0.0",
-    "@glint/ember-tsc": "^1.0.8",
-    "@glint/tsserver-plugin": "^2.0.8",
     "@percy/cli": "^1.31.5",
     "@percy/ember": "^5.0.0",
-    "@tsconfig/ember": "^3.0.12",
-    "@types/iframe-resizer": "^4.0.0",
-    "@types/qunit": "^2.19.13",
-    "@types/rsvp": "^4.0.9",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^9.2.1",
     "ember-auto-import": "^2.12.0",
@@ -89,12 +82,7 @@
     "qunit": "^2.24.3",
     "qunit-dom": "^3.5.0",
     "tracked-built-ins": "^4.0.0",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.50.0",
     "webpack": "^5.103.0"
-  },
-  "dependencies": {
-    "@glint/template": "^1.7.3"
   },
   "engines": {
     "node": "24.12.0",

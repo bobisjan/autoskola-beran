@@ -11,8 +11,6 @@ module.exports = function (defaults) {
       urls: ['/'],
     },
 
-    'ember-cli-babel': { enableTypeScriptTransform: true },
-
     babel: {
       sourceMaps: 'inline',
     },
