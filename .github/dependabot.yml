@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: "/"
+    directory: '/'
     schedule:
       interval: daily
     groups:
@@ -10,16 +10,22 @@ updates:
           - '@babel/*'
       embroider:
         patterns:
-          - "@embroider/*"
+          - '@embroider/*'
+          - 'ember-auto-import'
+          - 'webpack'
       ember-cli-deploy:
         patterns:
-          - "ember-cli-deploy-*"
+          - 'ember-cli-deploy-*'
       eslint:
         patterns:
           - '@eslint/*'
           - 'eslint*'
           - 'typescript-eslint'
+      prettier:
+        patterns:
+          - 'prettier'
+          - 'prettier-plugin-*'
   - package-ecosystem: github-actions
-    directory: "/"
+    directory: '/'
     schedule:
       interval: daily
