@@ -1,13 +1,8 @@
-import type { TOC } from '@ember/component/template-only';
 import Phone from './contact/phone';
 import Email from './contact/email';
 import Address from './contact/address';
 
-export interface FooterSignature {
-  Element: HTMLElement;
-}
-
-export default <template>
+<template>
   <footer id="footer">
     <div class="inner">
       <h2>Kontakt</h2>
@@ -22,4 +17,4 @@ export default <template>
       <a href="https://templated.co">TEMPLATED</a>.
     </div>
   </footer>
-</template> satisfies TOC<FooterSignature>;
+</template>

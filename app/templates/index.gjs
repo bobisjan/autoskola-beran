@@ -1,15 +1,7 @@
-import type { TOC } from '@ember/component/template-only';
-import type { ApplicationRouteModel } from '../routes/application';
 import Application from '../components/application';
 import Images from '../components/images';
 
-interface IndexRouteSignature {
-  Args: {
-    model: ApplicationRouteModel;
-  };
-}
-
-export default <template>
+<template>
   <section class="wrapper">
     <div class="inner">
       <header class="align-center">
@@ -127,4 +119,4 @@ export default <template>
       >Žádost o přijetí k výuce a výcviku</a>
     </div>
   </section>
-</template> satisfies TOC<IndexRouteSignature>;
+</template>

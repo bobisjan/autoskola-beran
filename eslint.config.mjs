@@ -3,8 +3,6 @@ import globals from 'globals';
 import js from '@eslint/js';
 import css from '@eslint/css';
 
-import ts from 'typescript-eslint';
-
 import ember from 'eslint-plugin-ember/recommended';
 
 import prettier from 'eslint-config-prettier/flat';
@@ -27,10 +25,6 @@ const parserOptions = {
           ],
         ],
       },
-    },
-    ts: {
-      projectService: true,
-      tsconfigRootDir: import.meta.dirname,
     },
   },
 };
@@ -61,14 +55,6 @@ export default defineConfig(
         ...globals.browser,
       },
     },
-  },
-  {
-    files: ['**/*.{ts,gts}'],
-    languageOptions: {
-      parser: ember.parser,
-      parserOptions: parserOptions.esm.ts,
-    },
-    extends: [...ts.configs.recommendedTypeChecked, ember.configs.gts],
   },
   {
     files: ['tests/**/*-test.{js,gjs,ts,gts}'],

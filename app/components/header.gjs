@@ -1,12 +1,7 @@
-import type { TOC } from '@ember/component/template-only';
 import { LinkTo } from '@ember/routing';
 import Phone from './contact/phone';
 
-export interface HeaderSignature {
-  Element: HTMLElement;
-}
-
-export default <template>
+<template>
   <header id="header">
     <LinkTo @route="index" class="logo">
       Autoškola Beran
@@ -16,4 +11,4 @@ export default <template>
       <Phone class="button alt" />
     </nav>
   </header>
-</template> satisfies TOC<HeaderSignature>;
+</template>
