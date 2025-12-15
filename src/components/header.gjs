@@ -1,5 +1,5 @@
 import { LinkTo } from '@ember/routing';
-import Phone from './contact/phone';
+import Phone from './contact/phone.gjs';
 
 <template>
   <header id="header">

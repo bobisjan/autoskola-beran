@@ -1,7 +1,7 @@
 import { module, test } from 'qunit';
-import { setupRenderingTest } from 'autoskola-beran/tests/helpers';
+import { setupRenderingTest } from '#tests/helpers.js';
 import { render } from '@ember/test-helpers';
-import Phone from 'autoskola-beran/components/contact/phone';
+import Phone from '#src/components/contact/phone.gjs';
 
 module('Integration | Component | contact/phone', function (hooks) {
   setupRenderingTest(hooks);

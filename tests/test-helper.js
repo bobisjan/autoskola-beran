@@ -1,14 +1,23 @@
-import Application from 'autoskola-beran/app';
-import config from 'autoskola-beran/config/environment';
+import Application from '#src/app.js';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';
-import { loadTests } from 'ember-qunit/test-loader';
-import { start, setupEmberOnerrorValidation } from 'ember-qunit';
+import { start as qunitStart, setupEmberOnerrorValidation } from 'ember-qunit';
+import { getGlobalConfig } from '@embroider/macros/src/addon/runtime';
 
-setApplication(Application.create(config.APP));
+export function start() {
+  getGlobalConfig()['@embroider/macros'] =
+    getGlobalConfig()['@embroider/macros'] ?? {};
+  getGlobalConfig()['@embroider/macros'].isTesting = true;
 
-setup(QUnit.assert);
-setupEmberOnerrorValidation();
-loadTests();
-start();
+  setApplication(
+    Application.create({
+      rootElement: '#ember-testing',
+      autoboot: false,
+    }),
+  );
+
+  setup(QUnit.assert);
+  setupEmberOnerrorValidation();
+  qunitStart();
+}

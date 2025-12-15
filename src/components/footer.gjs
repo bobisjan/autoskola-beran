@@ -1,5 +1,5 @@
-import Phone from './contact/phone';
-import Email from './contact/email';
+import Phone from './contact/phone.gjs';
+import Email from './contact/email.gjs';
 import Address from './contact/address';
 
 <template>

@@ -11,16 +11,11 @@ updates:
       embroider:
         patterns:
           - '@embroider/*'
-          - 'ember-auto-import'
-          - 'webpack'
-      ember-cli-deploy:
-        patterns:
-          - 'ember-cli-deploy-*'
+          - 'vite'
       eslint:
         patterns:
           - '@eslint/*'
           - 'eslint*'
-          - 'typescript-eslint'
       prettier:
         patterns:
           - 'prettier'

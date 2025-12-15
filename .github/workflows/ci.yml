@@ -50,10 +50,6 @@ jobs:
       name: production
       url: https://autoskolaberan.cz
 
-    env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-
     steps:
       - uses: actions/checkout@v6
       - uses: pnpm/action-setup@v4
@@ -61,5 +57,23 @@ jobs:
         with:
           node-version: 24.12.0
           cache: pnpm
+      - uses: aws-actions/configure-aws-credentials@v5
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: 'eu-central-1'
       - run: pnpm install
-      - run: pnpm run deploy
+      - run: pnpm build
+      - run: >
+          aws s3 sync ./dist/assets/ s3://autoskolaberan.cz/assets/
+          --acl public-read
+          --cache-control max-age=31536000,public
+          --delete
+      - run: >
+          aws s3 sync ./dist/ s3://autoskolaberan.cz/
+          --acl public-read
+          --cache-control max-age=60,public
+          --exclude '@embroider/*'
+          --exclude 'assets/*'
+          --exclude '.ssr/*'
+          --delete

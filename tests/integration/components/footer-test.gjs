@@ -1,7 +1,7 @@
 import { module, test } from 'qunit';
-import { setupRenderingTest } from 'autoskola-beran/tests/helpers';
+import { setupRenderingTest } from '#tests/helpers.js';
 import { render } from '@ember/test-helpers';
-import Footer from 'autoskola-beran/components/footer';
+import Footer from '#src/components/footer.gjs';
 
 module('Integration | Component | footer', function (hooks) {
   setupRenderingTest(hooks);
