@@ -1,5 +1,5 @@
-import Application from '../components/application';
-import Images from '../components/images';
+import Application from '#src/components/application.gjs';
+import Images from '#src/components/images.gjs';
 
 <template>
   <section class="wrapper">

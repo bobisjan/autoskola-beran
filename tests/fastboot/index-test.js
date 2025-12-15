@@ -1,9 +1,7 @@
 import { module, test } from 'qunit';
-import { setup, visit } from 'ember-cli-fastboot-testing/test-support';
+import { visit } from '#tests/helpers/fasboot.js';
 
-module('FastBoot | index', function (hooks) {
-  setup(hooks);
-
+module('FastBoot | index', function () {
   test('it renders', async function (assert) {
     await visit('/');
 
