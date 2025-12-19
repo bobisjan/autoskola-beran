@@ -125,9 +125,6 @@ importers:
       vite:
         specifier: ^7.3.0
         version: 7.3.0(@types/node@25.0.2)(jiti@2.4.2)(terser@5.44.1)(yaml@2.8.2)
-      webpack:
-        specifier: ^5.103.0
-        version: 5.103.0
 
 packages:
 
