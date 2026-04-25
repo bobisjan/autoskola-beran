@@ -45,7 +45,7 @@ import Images from '#src/components/images.gjs';
       <div class="flex-item">
         <div>
           <h3>Nové vozidlo</h3>
-          {{! template-lint-disable no-whitespace-within-word }}
+          {{! eslint-disable-next-line ember/template-no-whitespace-within-word }}
           <p>Připravil jsem pro vás nové výukové vozidlo MG ZS 1,5. Jedná se o v
             současnosti populární typ vozidla stylu městského SUV. Vozidlo je
             vyšší, je z něho dobrý výhled, je lehce ovladatelné a vybavené
