@@ -75,8 +75,8 @@ importers:
         specifier: 4.3.0
         version: 4.3.0(@babel/core@7.29.7)
       ember-qunit:
-        specifier: 9.0.4
-        version: 9.0.4(@babel/core@7.29.7)(@ember/test-helpers@5.4.3(@babel/core@7.29.7))(qunit@2.26.0)
+        specifier: 9.1.0
+        version: 9.1.0(@ember/test-helpers@5.4.3(@babel/core@7.29.7))(qunit@2.26.0)
       ember-source:
         specifier: 7.0.0
         version: 7.0.0(@glimmer/component@2.1.1)
@@ -2747,8 +2747,8 @@ packages:
   ember-modifier@4.3.0:
     resolution: {integrity: sha512-O0rirSLQbGg0VJ/NqoQ4uN1bh2iAekZC/Ykma+FkjCM2ofrO38u+d8n3+AK6uVWeMJmogGX2KL+Is5fofoInJg==}
 
-  ember-qunit@9.0.4:
-    resolution: {integrity: sha512-rv6gKvrdXdPBTdSZC5co82eIcDWWVR7RjafU/c+5TTz290oXhIHPoVuZbcO2F5RiAqkTW0jKzwkCP8y+2tCjFw==}
+  ember-qunit@9.1.0:
+    resolution: {integrity: sha512-dE32lSODyv4em0ACBS8PDzrAIPKR75hhSpn/au0qFBlzbdmNA/VVsgv2aoFAVRdlQ0zYJ8EiNPFqsBFciIeXVA==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
       qunit: ^2.13.0
@@ -7321,7 +7321,7 @@ snapshots:
 
   '@ember/test-waiters@4.1.1(@babel/core@7.29.7)':
     dependencies:
-      '@embroider/addon-shim': 1.10.3
+      '@embroider/addon-shim': 1.10.2
       '@embroider/macros': 1.20.4(@babel/core@7.29.7)
     transitivePeerDependencies:
       - '@babel/core'
@@ -7436,7 +7436,7 @@ snapshots:
       minimatch: 3.1.5
       pkg-entry-points: 1.1.1
       resolve-package-path: 4.0.3
-      semver: 7.8.4
+      semver: 7.8.2
       typescript-memoize: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -8877,7 +8877,7 @@ snapshots:
       postcss-modules-values: 4.0.0(postcss@8.5.15)
       postcss-value-parser: 4.2.0
       schema-utils: 3.3.0
-      semver: 7.8.4
+      semver: 7.8.2
       webpack: 5.106.2(postcss@8.5.15)
 
   css-tree@3.2.1:
@@ -9137,7 +9137,7 @@ snapshots:
   ember-cli-version-checker@5.1.2:
     dependencies:
       resolve-package-path: 3.1.0
-      semver: 7.8.4
+      semver: 7.8.2
       silent-error: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -9172,16 +9172,13 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  ember-qunit@9.0.4(@babel/core@7.29.7)(@ember/test-helpers@5.4.3(@babel/core@7.29.7))(qunit@2.26.0):
+  ember-qunit@9.1.0(@ember/test-helpers@5.4.3(@babel/core@7.29.7))(qunit@2.26.0):
     dependencies:
       '@ember/test-helpers': 5.4.3(@babel/core@7.29.7)
-      '@embroider/addon-shim': 1.10.2
-      '@embroider/macros': 1.20.4(@babel/core@7.29.7)
+      '@embroider/addon-shim': 1.10.3
       qunit: 2.26.0
       qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
-      - '@babel/core'
-      - '@glint/template'
       - supports-color
 
   ember-rfc176-data@0.3.18: {}
@@ -9388,7 +9385,7 @@ snapshots:
   eslint-compat-utils@0.5.1(eslint@9.39.4):
     dependencies:
       eslint: 9.39.4
-      semver: 7.8.4
+      semver: 7.8.0
 
   eslint-config-prettier@10.1.8(eslint@9.39.4):
     dependencies:
