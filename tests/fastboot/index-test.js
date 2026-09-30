@@ -8,6 +8,6 @@ module('FastBoot | index', function () {
     assert.dom('#header').exists();
     assert.dom('#footer').exists();
 
-    assert.dom('.price').hasText('Cena platná od 1. 1. 2023 je 20 000 Kč');
+    assert.dom('.price').hasText('Cena platná od 1. 10. 2026 je 25 000 Kč');
   });
 });
