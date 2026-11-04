@@ -285,7 +285,7 @@ importers:
         version: 1.4.0
       testem:
         specifier: 3.21.5
-        version: 3.21.5(@babel/core@8.0.10)(supports-color@8.1.1)(underscore@1.13.8)
+        version: 3.21.5(@babel/core@8.0.10)(handlebars@4.7.10)(supports-color@8.1.1)(underscore@1.13.8)
       vite:
         specifier: 8.3.5
         version: 8.3.5(@types/node@26.5.0)(terser@5.51.2)(yaml@2.9.1)
@@ -2275,8 +2275,8 @@ packages:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
     engines: {node: '>= 0.6'}
 
-  compression@1.8.1:
-    resolution: {integrity: sha512-9mAqGPHLakhCLeNyxPkK4xVo746zQ/czLH1Ky+vkitMnWfWZps8r0qXuwhwizagCRttsL4lfG4pIOvaWLpAP0w==}
+  compression@1.8.2:
+    resolution: {integrity: sha512-o8vI5RE5A6EVVOd9o41jKp41aJom+QTEO/Bx8MYNjexMo/Bv2WOjUfZr+aL0WnYSgymUy6zeguqLTsIhV0gMvQ==}
     engines: {node: '>= 0.8.0'}
 
   concat-map@0.0.1:
@@ -2591,6 +2591,10 @@ packages:
   dequal@2.0.3:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
     engines: {node: '>=6'}
+
+  destroy@1.2.0:
+    resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
+    engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
   detect-libc@2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
@@ -8662,11 +8666,12 @@ snapshots:
     dependencies:
       mime-db: 1.54.0
 
-  compression@1.8.1(supports-color@8.1.1):
+  compression@1.8.2(supports-color@8.1.1):
     dependencies:
       bytes: 3.1.2
       compressible: 2.0.18
       debug: 2.6.9(supports-color@8.1.1)
+      destroy: 1.2.0
       negotiator: 0.6.4
       on-headers: 1.1.0
       safe-buffer: 5.2.1
@@ -8676,9 +8681,10 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  consolidate@1.0.4(@babel/core@8.0.10)(lodash@4.18.1)(mustache@4.2.0)(underscore@1.13.8):
+  consolidate@1.0.4(@babel/core@8.0.10)(handlebars@4.7.10)(lodash@4.18.1)(mustache@4.2.0)(underscore@1.13.8):
     optionalDependencies:
       '@babel/core': 8.0.10
+      handlebars: 4.7.10
       lodash: 4.18.1
       mustache: 4.2.0
       underscore: 1.13.8
@@ -8840,6 +8846,8 @@ snapshots:
     optional: true
 
   dequal@2.0.3: {}
+
+  destroy@1.2.0: {}
 
   detect-libc@2.1.2: {}
 
@@ -11794,15 +11802,15 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
-  testem@3.21.5(@babel/core@8.0.10)(supports-color@8.1.1)(underscore@1.13.8):
+  testem@3.21.5(@babel/core@8.0.10)(handlebars@4.7.10)(supports-color@8.1.1)(underscore@1.13.8):
     dependencies:
       '@xmldom/xmldom': 0.9.12
       backbone: 1.6.1
       charm: 1.0.2
       chokidar: 5.0.0
       commander: 14.0.3
-      compression: 1.8.1(supports-color@8.1.1)
-      consolidate: 1.0.4(@babel/core@8.0.10)(lodash@4.18.1)(mustache@4.2.0)(underscore@1.13.8)
+      compression: 1.8.2(supports-color@8.1.1)
+      consolidate: 1.0.4(@babel/core@8.0.10)(handlebars@4.7.10)(lodash@4.18.1)(mustache@4.2.0)(underscore@1.13.8)
       execa: 9.6.1
       express: 5.2.1(supports-color@8.1.1)
       glob: 13.0.6
